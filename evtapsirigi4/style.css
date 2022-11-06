@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header,.section-1{
+    text-align: center;
+}
+.header{
+    width: 100%;
+}
+.logo{
+    color: #ffc800;
+    width: 187px;
+    font-weight: 700;
+    letter-spacing: 0.0625rem;
+    float: left;
+    padding: 29px 0;
+    margin-left: 15%;
+}
+.inner-nav{
+    margin-right: 15%;
+}
+.inner-nav a{
+    text-decoration: none;
+    color: white;
+    padding:29px 1.5rem 1.5rem;
+    float: right;
+}
+.section-1{
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+}
+.heding{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+}
+.h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 84px;
+
+}
+.section-1 a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    background-color: #ffc800;
+    padding: 20px 40px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.section-1 a:hover{
+    background-color:orange;
+}
+.section-2{
+    margin: auto;
+    padding: 6rem 0 356px;
+    width: 71%;
+}
+.head-1,.par-1{
+    text-align: center;
+}
+.head-1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.par-1{
+    color: #6c757d;
+    font-style: italic;
+    font-family: 'Roboto Slab', serif; ;
+    font-size: 1rem;
+    margin-bottom: 4rem;
+}
+.section-2 .box-1{
+    text-align: center;
+    padding: 0 1rem 6rem;
+    width: 33%;
+    text-align: center;
+    float: left;
+}
+.box-1 i{
+    font-size: 4rem;
+    padding: 1.75rem;
+    border-radius:50%;
+    color: white;
+    background-color:#FFC800;
+}
+.box-1 h4{
+    margin: 1rem 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+.box-1 p{
+    color: #6c757d;
+    font-family: 'Roboto Slab', serif; 
+    margin-bottom: 1rem;
+    font-style: italic;
+
+}
+.sec-3{
+    height: 1203px;
+    background-color:#F8F9FA;
+}
+.section-3{
+    
+    margin: auto;
+    padding: 6rem 0;
+    width: 70%;
+}
+.section-3 .box-1{
+    background-color:white;
+    text-align: center;
+    /* padding: 0 12px; */
+    margin:calc(5.5%/6);
+    width: 31.5%;
+    text-align: center;
+    float: left;
+}
+.box-1 img{
+
+    width: 100%;
+    
+}
+.sec-5{
+    height: 900px;
+    background-color:#F8F9FA;
+}
+.section-5{
+    
+    margin: auto;
+    padding: 6rem 0;
+    width: 70%;
+    height: 820px;
+}
+.section-5 .box-3{
+    text-align: center;
+    /* padding: 0 12px; */
+    margin:calc(49%/6) calc(49%/6) calc(29%/6);
+    width: 17%;
+    text-align: center;
+    float: left;
+}
+.box-3 img{
+
+    width: 100%;
+    border-radius: 50%;
+    border:8px solid #DFE0E1;
+}
+.box-3 h4{
+    margin: 1rem 0 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+.box-3 p{
+    color: #6c757d;
+    font-family: 'Roboto Slab', serif; 
+    margin-bottom: 1rem;
+    /* font-style: italic; */
+
+}
+.box-3 i{
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 30%;
+    scale: 2;
+
+}
+.par{
+    text-align: center;
+    color: #6c757d;
+    font-family: 'Roboto Slab', serif; 
+    margin-bottom: 1rem;
+}
+.sec-6{
+    height: 150px;
+}
+.section-6{
+    padding: 3rem 0;
+    width: 70%;
+    margin: auto;
+
+}
+.brands-1{
+    width: 25%;
+    float: left;
+}
+#microsoft img{
+    width: 60%;
+    margin: 0 35% 48px;
+}
+#google img{
+    width: 35%;
+    margin: 0 calc(65%/2) 48px;
+}
+#facebook img{
+    width: 50%;
+    margin: 0 25% 48px;
+}
+#ibm img{
+    width: 30%;
+    margin: 0 35% 48px;
+}
+.sec-7{
+    width: 100%;
+    background-color: #212529;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png);
+    
+}
+.section-7{
+    text-align: center;
+}
+.head-2 .head-1{
+    color: white;
+}
+.par-7{
+    color: #6c757d;
+    font-family: 'Roboto Slab', serif; 
+    margin-bottom: 1rem;
+    font-style:italic ;
+}
+.boxx-1{
+    width: 50%;
+    float: left;
+}
+.i1{
+    width: 100%;
+}
+.i2{
+    width: 100%;
+    height: 246px;
+}
+
+
